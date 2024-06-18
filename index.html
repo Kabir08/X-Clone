@@ -12,71 +12,80 @@
 </head>
 
 <body class="bg-black text-white">
-    <div class="flex md:container mx-auto my-4">
-        <div class="first  w-[65%] ">
-            <div class="logo invert my-4">
-                <svg viewBox="0 0 24 24" aria-hidden="true"
-                    class="m-auto w-8 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-18jsvk2 r-16y2uox r-8kz0gk">
-                    <g>
-                        <path
-                            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
-                        </path>
-                    </g>
-                </svg>
-            </div>
-
-            <div class="sidebar flex items-end flex-col">
-                <ul class="flex flex-col text-xl space-y-3 w-1/2">
+    <div class="flex md:container mx-auto my-4 ">
+        <div class="first w-15 md:w-[65%] ">
+            
+            <div class="sidebar md:items-end   items-start flex flex-col">
+                <ul class="flex  flex-col text-xl md:w-[85%] space-y-3 w-1/2 ">
+                    <div class="logo  invert my-4">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"
+                            class="m-auto w-8 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-18jsvk2 r-16y2uox r-8kz0gk">
+                            <g>
+                                <path
+                                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
                     <li
                         class="gap-3 flex justify-start items-center w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-1 hover:rounded-full">
-                        <span class="material-symbols-outlined text-2xl">home</span>Home
+                        <span class="material-symbols-outlined text-2xl">home</span><span class = "hidden md:block"> Home</span>
                     </li>
                     <li
                         class="gap-3 flex justify-start items-center w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-1 hover:rounded-full">
                         <span class="material-symbols-outlined text-2xl">
                             search
-                        </span>Explore
+                        </span><span class = "hidden md:block"> Explore</span>
                     </li>
                     <li
                         class="gap-3 flex justify-start items-center w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-1 hover:rounded-full">
                         <span class="material-symbols-outlined text-2xl">
                             notifications
-                        </span>Nortifications
+                        </span><span class = "hidden md:block"> Nortifications</span>
                     </li>
                     <li
                         class="gap-3 flex justify-start items-center w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-1 hover:rounded-full">
-                        <span class="material-symbols-outlined text-2xl">mail</span>Messages
+                        <span class="material-symbols-outlined text-2xl">mail</span><span class = "hidden md:block"> Messages</span>
                     </li>
                     <li
                         class="gap-3 flex justify-start items-center w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-1 hover:rounded-full">
-                        <span class="material-symbols-outlined text-2xl">smart_toy</span>Grok
+                        <span class="material-symbols-outlined text-2xl">smart_toy</span><span class = "hidden md:block"> Grok</span>
                     </li>
                     <li
                         class="gap-3 flex justify-start items-center w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-1 hover:rounded-full">
-                        <span class="material-symbols-outlined text-2xl">group</span>Communities
+                        <span class="material-symbols-outlined text-2xl">group</span><span class = "hidden md:block"> Communities</span>
                     </li>
                     <li
                         class="gap-3 flex justify-start items-center w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-1 hover:rounded-full">
-                        <span class="material-symbols-outlined text-2xl">license</span>Premium
+                        <span class="material-symbols-outlined text-2xl">license</span><span class = "hidden md:block"> Premium</span>
                     </li>
                     <li
                         class="gap-3 flex justify-start items-center w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-1 hover:rounded-full">
-                        <span class="material-symbols-outlined text-2xl">person</span>Profile
+                        <span class="material-symbols-outlined text-2xl">person</span><span class = "hidden md:block"> Profile</span>
                     </li>
                     <li
                         class="gap-3 flex justify-start items-center w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-1 hover:rounded-full">
-                        <span class="material-symbols-outlined text-2xl">more_horiz</span>More
+                        <span class="material-symbols-outlined text-2xl">more_horiz</span><span class = "hidden md:block"> More</span>
                     </li>
                     <li>
-                        <div class="button w-full text-center">
-                            <button class=" bg-blue-600 px-16 py-2 text-2xl rounded-full text-white">Post</button>
+                        <div class="button md:w-full w-18 text-center ">
+                            <button class=" bg-blue-600 text-lg px-3 py-3 rounded-full md:px-16 md:py-2 md:text-2xl  md:rounded-full text-white">Post</button>
                         </div>
 
                     </li>
                 </ul>
+                <div class="userprofile flex justify-center  w-full mt-10">
+                    <div class="flex gap-4 font-bold cursor-pointer items-center  py-1  hover:bg-gray-800 text-gray-200">
+                        <img  alt="" draggable="true" src="https://pbs.twimg.com/profile_images/1610094788358856705/oNeJxPbU_x96.png" class="css-9pa8cd h-10 w-10 rounded-full">
+                        <span>Kabir Potdar</span>
+                        <div class="ham"><span class="material-symbols-outlined">
+                            menu
+                            </span></div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="second border-[1px] border-x-white border-y-black w-full ">
+        <div class="second border-[1px] border-x-gray-500 border-y-black w-full ">
             <div class="top flex p-3 relative">
                 <div class="absolute w-14 h-1 rounded-full bg-blue-500 bottom-0 left-[19%]"></div>
                 <div class="left bg-red-5000 w-1/2 flex justify-center font-bold text-lg ">For you</div>
@@ -100,6 +109,7 @@
                         <span class="font-bold">Everyone can reply</span>
                     </div>
                     <div class="w-[90%] h-[1px] bg-gray-800 my-2"></div>
+                    <div class="flex justify-between">
                     <div class="blueicons flex gap-2">
                         <span class="material-symbols-outlined cursor-pointer">
                             image
@@ -120,7 +130,100 @@
                             location_on
                         </span>
                     </div>
-                    
+                    <div class="postbutton">
+                        <button class=" bg-blue-300 text px-3 py-3 rounded-full md:px-4 md:py-1 md:text-xl   md:rounded-full text-white">Post</button>
+                    </div>
+                </div>
+
+                </div>
+            </div>
+            <div class="border border-y-gray-600 my-3 w-full"></div>
+            <div class=" posts">
+                <div class="post flex">
+                    <div class="image m-4">
+                        <img class="w-16"
+                            src="https://pbs.twimg.com/profile_images/1623252653156466688/7_UxZBZp_x96.jpg" alt="">
+                    </div>
+
+                    <div class="content my-3">
+                        <span class="font-bold hover:underline cursor-pointer text-white">OThingstodo</span> <span
+                            class="text-gray-500">@othingstodo_com ·17h</span>
+                        <div>Here are the most beautiful places in Japan that you must visit - a thread🧵👇 1. Kyoto,
+                            Japan 🇯🇵</div>
+                        <div class="posting m-4 ml-0">
+                            <img src="https://pbs.twimg.com/media/GQTACHxWQAAoXwu?format=jpg&name=small" alt="">
+                        </div>
+                        <div class="icons flex justify-between mx-4 my-4 text-sm text-gray-600">
+                            <div
+                                class="icon flex items-center justify-center hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                                <span class="material-symbols-outlined">
+                                    chat_bubble
+                                </span> 1k
+                            </div>
+                            <div
+                                class="icon flex items-center justify-center hover:text-green-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                                <span class="material-symbols-outlined">
+                                    repeat
+                                </span> 1k
+                            </div>
+                            <div
+                                class="icon flex items-center justify-center hover:text-pink-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                                <span class="material-symbols-outlined">
+                                    Favorite
+                                </span> 1k
+                            </div>
+                            <div
+                                class="icon flex items-center justify-center hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                                <span class="material-symbols-outlined">
+                                    bar_chart
+                                </span> 1k
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="post flex">
+                    <div class="image m-4">
+                        <img class="w-16"
+                            src="https://pbs.twimg.com/profile_images/1623252653156466688/7_UxZBZp_x96.jpg" alt="">
+                    </div>
+
+                    <div class="content my-3">
+                        <span class="font-bold hover:underline cursor-pointer text-white">OThingstodo</span> <span
+                            class="text-gray-500">@othingstodo_com ·17h</span>
+                        <div>Here are the most beautiful places in Japan that you must visit - a thread🧵👇 1. Kyoto,
+                            Japan 🇯🇵</div>
+                        <div class="posting m-4 ml-0">
+                            <img src="https://pbs.twimg.com/media/GQTACHxWQAAoXwu?format=jpg&name=small" alt="">
+                        </div>
+                        <div class="icons flex justify-between mx-4 my-4 text-sm text-gray-600">
+                            <div
+                                class="icon flex items-center justify-center hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                                <span class="material-symbols-outlined">
+                                    chat_bubble
+                                </span> 1k
+                            </div>
+                            <div
+                                class="icon flex items-center justify-center hover:text-green-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                                <span class="material-symbols-outlined">
+                                    repeat
+                                </span> 1k
+                            </div>
+                            <div
+                                class="icon flex items-center justify-center hover:text-pink-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                                <span class="material-symbols-outlined">
+                                    Favorite
+                                </span> 1k
+                            </div>
+                            <div
+                                class="icon flex items-center justify-center hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                                <span class="material-symbols-outlined">
+                                    bar_chart
+                                </span> 1k
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -128,7 +231,7 @@
             <div class="search m-3">
                 <input type="text" class="w-1/2 rounded-full bg-[#16181c] text-white px-4 py-2" placeholder="Search">
             </div>
-            <div class="whats m-3 bg-[#16181c] w-1/2 py-5 rounded-xl space-y-3">
+            <div class="whats sticky top-0 m-3 bg-[#16181c] w-1/2 py-5 rounded-xl space-y-3">
                 <h1 class="text-xl font-bold px-3">Whats Happening</h1>
                 <div class="item p-1 hover:bg-gray-800 cursor-pointer px-3">
                     <div class="text-sm text-gray-200 ">Trending in India</div>
@@ -152,14 +255,31 @@
                 </div>
             </div>
 
-            <div class="who m-3 bg-[#16181c] w-1/2 py-5 rounded-xl space-y-3 ">
+            <div class="who sticky top-[60vh] m-3 bg-[#16181c] w-1/2 py-5 rounded-xl space-y-3 ">
                 <h1 class="text-xl font-bold px-3 ">Who to Follow</h1>
 
-                <div class="item p-1 cursor-pointer px-3">
-                    <div class="font-bold cursor-pointer py-1 text-gray-200">Code with Harry</div>
-                    <div class="font-bold cursor-pointer py-1 text-gray-200">Sachin Tendulkar</div>
-                    <div class="font-bold cursor-pointer py-1 text-gray-200">Virat Kohli</div>
-                    <div class="font-bold cursor-pointer py-1 text-gray-200">Rohit Sharma</div>
+                <div class="item p-1 cursor-pointer  rounded-full">
+                    <div class="flex gap-4 font-bold cursor-pointer items-center py-1  hover:bg-gray-800 text-gray-200">
+                        <img  alt="" draggable="true" src="https://pbs.twimg.com/profile_images/1610094788358856705/oNeJxPbU_x96.png" class="css-9pa8cd h-10 w-10 rounded-full">
+                        <span>Code with Harry</span>
+                        <div class="p-2 rounded-full w-[80px]  bg-white text-black size-9 text-center"><button >Follow</button></div>
+                    </div>
+                    <div class="flex gap-4 font-bold cursor-pointer items-center py-1  hover:bg-gray-800 text-gray-200">
+                        <img  alt="" draggable="true" src="https://pbs.twimg.com/profile_images/1610094788358856705/oNeJxPbU_x96.png" class="css-9pa8cd h-10 w-10 rounded-full">
+                        <span>Code with Harry</span>
+                        <div class="p-2 rounded-full w-[80px]  bg-white text-black size-9 text-center"><button >Follow</button></div>
+                    </div>
+                    <div class="flex gap-4 font-bold cursor-pointer items-center py-1  hover:bg-gray-800 text-gray-200">
+                        <img  alt="" draggable="true" src="https://pbs.twimg.com/profile_images/1610094788358856705/oNeJxPbU_x96.png" class="css-9pa8cd h-10 w-10 rounded-full">
+                        <span>Code with Harry</span>
+                        <div class="p-2 rounded-full w-[80px]  bg-white text-black size-9 text-center"><button >Follow</button></div>
+                    </div>
+                    <div class="flex gap-4 font-bold cursor-pointer items-center py-1  hover:bg-gray-800 text-gray-200">
+                        <img  alt="" draggable="true" src="https://pbs.twimg.com/profile_images/1610094788358856705/oNeJxPbU_x96.png" class="css-9pa8cd h-10 w-10 rounded-full">
+                        <span>Code with Harry</span>
+                        <div class="p-2 rounded-full w-[80px]  bg-white text-black size-9 text-center"><button >Follow</button></div>
+                    </div>
+                    
                 </div>
                 <div class="text-blue-600 underline py-1 p-3 cursor-pointer ">Show more</div>
             </div>
